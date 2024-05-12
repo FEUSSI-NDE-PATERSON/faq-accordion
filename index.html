@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faq accordion</title>
+    <link rel="shortcut icon" href="/assets/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div >
+        <div class="w-full bg-red-500 h-[45vh] img">
+        </div>
+        <div class="w-full bg-[#f9f0ff] flex  h-[55vh]  justify-center items-center relative">
+            <div class="bg-white h-fit  w-[50%] sm:w-[80%] lg:w-[30%] md:w-[45%] absolute   -top-64 rounded-lg shadow shadow-lg p-4">
+              <div class="flex">
+                <img src="/assets/images/icon-star.svg"  class="w-5"/>
+                <p class="font-bold text-2xl ml-2 color-[#2f1533]">FAQS</p>
+              </div>
+              <div class="flex flex-col">
+                <div class="flex flex-col ">
+                    <div class="flex justify-between pt-2">
+                      <p class="text-sm">What is Frontend Mentor, and how will it help me?</p>
+                      <button onclick="accordion(`zero`)"><img src="/assets/images/icon-plus.svg" alt="image not supported" class="ml-2 img-zero" /></button>
+                   </div>
+                   <div class="mt-2">
+                       <p class="text-xs text-[#8c6991] leading-4 title title-zero">Frontend Mentor offers realistics coding challenges to help developer improve their frontend coding skills with projects in HTML,CSS and javascript.it's suitable for all levelx and ideal for portfolio building</p>
+                         <p class="mt-2 border border-[#8c6991]"></p>
+                   </div>
+                </div>
+
+                <div class="flex flex-col ">
+                    <div class="flex justify-between pt-2">
+                      <p class="text-sm">Is Frontend Mentor free?</p>
+                      <button onclick="accordion(`one`)"><img src="/assets/images/icon-plus.svg" alt="image not supported" class="ml-2 img-one" /></button>
+                   </div>
+                   <div class="mt-2">
+                       <p class="text-xs text-[#8c6991] leading-4 title title-one">Frontend Mentor offers realistics coding challenges to help developer improve their frontend coding skills with projects in HTML,CSS and javascript.it's suitable for all levelx and ideal for portfolio building</p>
+                         <p class="mt-2 border border-[#8c6991]"></p>
+                   </div>
+                </div>
+
+                <div class="flex flex-col ">
+                    <div class="flex justify-between pt-2">
+                      <p class="text-sm">Can i use Frontend Mentor projects in my Protfolio?</p>
+                      <button onclick="accordion(`two`)"><img src="/assets/images/icon-plus.svg" alt="image not supported" class="ml-2 img-two" /></button>
+                   </div>
+                   <div class="mt-2">
+                       <p class="text-xs text-[#8c6991] leading-4 title title-two">Frontend Mentor offers realistics coding challenges to help developer improve their frontend coding skills with projects in HTML,CSS and javascript.it's suitable for all levelx and ideal for portfolio building</p>
+                         <p class="mt-2 border border-[#8c6991]"></p>
+                   </div>
+                </div>
+
+                <div class="flex flex-col ">
+                    <div class="flex justify-between pt-2">
+                      <p class="text-sm">How can i get help if i'm stuck on a challenge?</p>
+                      <button onclick="accordion(`three`)"><img src="/assets/images/icon-plus.svg" alt="image not supported" class="ml-2 img-three" /></button>
+                   </div>
+                   <div class="mt-2">
+                       <p class="text-xs text-[#8c6991] leading-4 title title-three">Frontend Mentor offers realistics coding challenges to help developer improve their frontend coding skills with projects in HTML,CSS and javascript.it's suitable for all levelx and ideal for portfolio building</p>
+                         <p class="mt-2 border border-[#8c6991]"></p>
+                   </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    
+
+    </div>
+    <script src="/js/index.js"></script>
+</body>
+</html>
